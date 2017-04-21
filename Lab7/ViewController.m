@@ -45,6 +45,10 @@
     [_Cbrain negateCalculationString];
     [self updatecalculationView];
 }
+- (IBAction)addDevynsAge:(id)sender {
+    [_Cbrain addDevynsAgeString];
+    [self updatecalculationView];
+}
 
 - (IBAction)tangent:(id)sender {
     [_Cbrain tangentCalculationString];

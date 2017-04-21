@@ -73,6 +73,13 @@
     double input = [_calculationString doubleValue];
     _calculationString = [NSString stringWithFormat:@"%.02f",tan(input) ];
 }
+
+- (void)addDevynsAgeString {
+    double input = [_calculationString doubleValue];
+    _calculationString = [NSString stringWithFormat:@"%.02f", input + 21 ];
+}
+
+
 - (void)commitAction {
     double operand1 = [_savedOperand doubleValue];
     double operand2 = [_calculationString doubleValue];
